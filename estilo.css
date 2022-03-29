@@ -1,0 +1,175 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer{
+    
+}
+
+#span1{
+    color: rgb(255, 145, 0);
+ }
+
+#span2{
+    color: #ffffff;
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    
+ }
+
+ #span3{
+    color: rgb(0, 0, 0);
+ }
+
+#direitos{
+    color: white;
+}
+
+#hoteis{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 10px;
+    justify-content: space-around;    
+    /*color: #fff;
+    background-color: #198754;*/
+    
+}
+
+#hoteis img{
+   box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+}
+
+#hoteis img:hover{
+    transform: scale(1.10,1.10);
+    transition: 1s;
+    box-shadow: 12px 12px 12px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.col{
+    border: 1px solid #fff;
+   /* margin-left: 4%;
+    margin-right: 4%;*/
+    border-radius: 5px;
+    /*margin-top: 100px;
+    margin-bottom: 100px;*/
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 7px;
+}
+
+.col img{
+   margin: 10px;
+}
+
+.info{
+    margin-top: 100px;
+}
+
+/*section{
+    border: 1px solid #fff;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}*/
+
+
+/*------------------------------------LOGIN---------------------------------------------*/
+
+.cadastro{
+    text-decoration: none;
+    background: black;
+    /*right: 50%;
+    width: 380px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;*/
+    clear: both;
+    border-radius: 20px;
+    padding: 40px 80px 40px 80px;
+    justify-content: space-around;
+    color: #fff;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+/*position: absolute;
+top: 50%
+left: 50%
+transformr: translate(-50%,-50%)
+*/
+
+.cad{
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+#h1{
+    margin: 10px;
+    text-align: center;
+    
+}
+
+#botao{
+    background: rgb(255, 145, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background: rgb(255, 255, 255);
+    color: #000000;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.back{
+   /* background: rgb(255, 145, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;*/
+    float: right;
+    text-decoration:line;
+    color: #fff;
+    font-size: 16px;
+}
+.back:hover{
+  /*  background: rgb(255, 255, 255);*/
+    color: rgb(255, 145, 0);
+    transition: 1s;
+}
+
+
+
+
+
+/*h2{
+    color: red;
+}
+
+colocar as paginas de login responsivas sem imagens*/
