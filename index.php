@@ -10,6 +10,8 @@
     
     <title>TROPICHOTEL</title>
     
+
+    <div></div>
 </head>
 <body>
     <div id="site">
